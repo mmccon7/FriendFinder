@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "An application that allows you to find your friends through a simple survey",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmccon7/FriendFinder.git"
+  },
+  "keywords": [
+    "friends",
+    "find"
+  ],
+  "author": "Matt McConaghie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmccon7/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/mmccon7/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
